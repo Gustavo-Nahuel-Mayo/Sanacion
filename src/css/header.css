@@ -1,0 +1,41 @@
+
+.descuento {
+    font-size: 10px; /* Tamaño de letra por defecto */
+    color: white;
+  }
+
+  @media (max-width: 768px) {
+    .descuento {
+      font-size: 15px; /* Tamaño de letra por defecto */
+      color: white;
+    }
+    .header {
+      position: fixed;
+      top: 0;
+      height: 110px;
+      width: 100%;
+      background-color: black;
+      z-index: 100;
+      text-align: center;
+    }
+    }
+  
+  
+  @media (min-width: 768px) and (max-width: 1800px) {
+    .descuento {
+      font-size: 30px; /* Tamaño de letra por defecto */
+      color: white;
+      margin-top: 0px;
+    }
+    .header {
+      position: fixed;
+      top: 0;
+      height: 140px;
+      width: 100%;
+      background-color: black;
+      z-index: 100;
+      text-align: center;
+    }
+    }
+  
+  
