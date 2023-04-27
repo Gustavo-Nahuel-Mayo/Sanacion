@@ -66,9 +66,9 @@ function Preguntas() {
           className={`modulo-desplegable ${collapsed["pregunta5"] ? "collapsed" : ""}`}
         >
           {!collapsed["pregunta5"] && (
-            <div>
+            <div className="classpregunta5">
             <p className="respuesta">
-              Puedes pagar con tarjeta de crédito, débito, PayPal desde cualquier país del mundo. Además, puedes pagar en EFECTIVO por medio de:
+              Puedes pagar con tarjeta de crédito, débito, PayPal desde cualquier país del mundo.
             </p>
             <div  className="pagosenmundo">
             <img src={Pagos} alt="pago" id="pagosimg" />

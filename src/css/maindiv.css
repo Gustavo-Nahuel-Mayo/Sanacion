@@ -14,8 +14,9 @@ margin: auto;
 
 @media (max-width: 768px) {
 .cursoonline{
-    font-size: 50px;
+    font-size: 60px;
     text-align: center;
+    font-family: 'Dancing Script', cursive;
   }
   .ideario{
     text-align: center;
@@ -52,8 +53,9 @@ margin: auto;
 }
 @media (min-width: 768px) and (max-width: 3800px) {
 .cursoonline{
-    font-size: 80px;
+    font-size: 90px;
     text-align: center;
+    font-family: 'Dancing Script', cursive;
   }
   .ideario{
     text-align: center;
